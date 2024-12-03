@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Digital | eBooks Transformadores</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Biblioteca digital com os melhores eBooks para transformação pessoal e profissional"
+    />
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="main-header">
+      <div class="header-container">
+        <img
+          src="assets/images/logo.jpeg"
+          alt="Logo da Biblioteca Digital"
+          class="logo"
+        />
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="#home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="#empresa"><i class="fas fa-info-circle"></i> Empresa</a>
+            </li>
+            <li>
+              <a href="#produtos"><i class="fas fa-book"></i> Produtos</a>
+            </li>
+            <li>
+              <a href="#contato"><i class="fas fa-envelope"></i> Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+      <div class="banner-wrapper">
+        <div class="banner-content">
+          <div class="banner-text">
+            <h1>Transforme sua Vida com Conhecimento</h1>
+            <p>
+              Descubra eBooks inspiradores que vão revolucionar sua jornada
+              pessoal e profissional. Cada página é uma oportunidade de
+              crescimento e transformação.
+            </p>
+            <a href="#produtos" class="btn-banner">
+              <i class="fas fa-book-open"></i> Explore Nossos eBooks
+            </a>
+          </div>
+        </div>
+        <div class="banner-image-container">
+          <div class="banner-image-wrapper">
+            <img
+              src="assets/images/autora.jpeg"
+              alt="Autora dos eBooks"
+              class="banner-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="empresa" class="section-padding">
+      <div class="container">
+        <h2>Sobre Nossa Biblioteca Digital</h2>
+        <div class="empresa-info">
+          <div class="info-card animated-card">
+            <i class="fas fa-bullseye"></i>
+            <h3>Missão</h3>
+            <p>
+              Democratizar o conhecimento através de eBooks de alta qualidade e
+              acessíveis, transformando vidas através da informação.
+            </p>
+          </div>
+          <div class="info-card animated-card">
+            <i class="fas fa-eye"></i>
+            <h3>Visão</h3>
+            <p>
+              Ser referência global em conteúdo digital, inspirando milhares de
+              pessoas a alcançarem seu potencial máximo.
+            </p>
+          </div>
+          <div class="info-card animated-card">
+            <i class="fas fa-heart"></i>
+            <h3>Valores</h3>
+            <p>
+              Comprometimento com a excelência, inovação constante e impacto
+              positivo na vida das pessoas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produtos (eBooks) -->
+    <section id="produtos" class="section-padding">
+      <div class="container">
+        <h2>Nossos eBooks em Destaque</h2>
+        <div class="produtos-grid">
+          <div class="produto-card">
+            <div class="produto-badge">Mais Vendido</div>
+            <img src="assets/images/ebook1.jpeg" alt="eBook Autoconhecimento" />
+            <h3>Jornada do Autoconhecimento</h3>
+            <p>Descubra seu potencial interior e transforme sua vida.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 29,90</span>
+              <a href="#" class="btn">Comprar Agora</a>
+            </div>
+          </div>
+          <div class="produto-card">
+            <div class="produto-badge">Novidade</div>
+            <img src="assets/images/ebook2.jpeg" alt="eBook Produtividade" />
+            <h3>Produtividade Máxima</h3>
+            <p>Técnicas revolucionárias para multiplicar sua eficiência.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 34,90</span>
+              <a href="#" class="btn">Comprar Agora</a>
+            </div>
+          </div>
+          <div class="produto-card">
+            <img
+              src="assets/images/ebook3.jpeg"
+              alt="eBook Inteligência Emocional"
+            />
+            <h3>Inteligência Emocional</h3>
+            <p>Aprenda a gerenciar suas emoções e conquistar seus objetivos.</p>
+            <div class="produto-footer">
+              <span class="preco">R$ 39,90</span>
+              <a href="#" class="btn">Comprar Agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section-padding">
+      <div class="container">
+        <h2>Fale Conosco</h2>
+        <form id="contact-form" class="contato-form">
+          <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required />
+            <span class="error-message" id="nome-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Sua Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+            <span class="error-message" id="mensagem-error"></span>
+          </div>
+          <button type="submit" class="btn btn-submit">
+            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Biblioteca Digital. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <div id="scroll-top" class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
